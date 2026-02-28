@@ -357,7 +357,8 @@ body {
     .content h3 {
         font-size: 3rem;
     }
-    .navbar a:hover{
+
+    .navbar a:hover {
         border-bottom: none;
     }
 
@@ -389,10 +390,18 @@ body {
         padding-top: 1.2rem;
         padding-bottom: 1.2rem;
     }
-    .menu-mobile .navbar .btn{
+
+    .menu-mobile .navbar .btn {
         color: #ffffff;
     }
-    .open{
+
+    .open {
         display: block;
+    }
+
+    .service .box-container .box:hover {
+
+        box-shadow: none;
+
     }
 }
